@@ -15,7 +15,7 @@ namespace TestProject3
         [Given(@"I need verified POST posts")]
         public void GivenINeedVerifiedPOSTPosts()
         {
-            request.AddHeader("Authorization", "Bearer " + "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY4NjA1NTIwMCwiZXhwIjoxNjg2MDU4ODAwfQ.5obR8herso8a4D4Q4fTiOdgmrkql2a_sh7Et0dnZvZM");
+            request.AddHeader("Authorization", "Bearer " + "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY4NjA2MzI2MywiZXhwIjoxNjg2MDY2ODYzfQ.5Tqetrh7V8bghdmAPZuzqeHShmelAIk5LOojU7J0Cmo");
             request.AddJsonBody(new { id = 15, name = "PPPPPPPP Glasses", description = "Purple Glasses", image = "purple -glasses.jpg", price = "19.99", categoryId = 7 });
         }
 
