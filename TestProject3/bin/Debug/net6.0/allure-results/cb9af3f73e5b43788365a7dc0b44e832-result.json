@@ -1,0 +1,91 @@
+{
+  "uuid": "86b606d0a6f74426aa2d82158e332441",
+  "historyId": "Get PUT post",
+  "fullName": "Get PUT post",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "PGARCES-NH01"
+    },
+    {
+      "name": "feature",
+      "value": "Get posts"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "Jira-5455"
+    }
+  ],
+  "links": [],
+  "name": "Get PUT post",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I need verified PUT posts",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686055408366,
+      "stop": 1686055408367
+    },
+    {
+      "name": "When  I send a get PUT request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686055408367,
+      "stop": 1686055408630
+    },
+    {
+      "name": "Then  I expected a valid get PUT code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686055408630,
+      "stop": 1686055408631
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686055408366,
+  "stop": 1686055408631
+}
