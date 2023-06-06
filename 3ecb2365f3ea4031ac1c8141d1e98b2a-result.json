@@ -1,0 +1,91 @@
+{
+  "uuid": "ac0a8c24feaa486194f9e5cfa22f2f73",
+  "historyId": "Get all post",
+  "fullName": "Get all post",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az471-979"
+    },
+    {
+      "name": "feature",
+      "value": "Get posts"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "Jira-5455"
+    }
+  ],
+  "links": [],
+  "name": "Get all post",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I need verified ALL posts",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686062247934,
+      "stop": 1686062248745
+    },
+    {
+      "name": "When  I send a get ALL request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686062248746,
+      "stop": 1686062248827
+    },
+    {
+      "name": "Then  I expected a valid get ALL code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686062248827,
+      "stop": 1686062248841
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686062247908,
+  "stop": 1686062248844
+}
